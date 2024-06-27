@@ -21,7 +21,7 @@ cp ~/my-configs/.zshrc ~/
 mv ~/.config/nvim{,.bak}
 
 # 安装 LazyVim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://mirror.ghproxy.com/https://github.com/LazyVim/starter ~/.config/nvim
 
 # 删除 LazyVim 仓库中的 .git 目录
 rm -rf ~/.config/nvim/.git
